@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="medifox_Page_Tests.Login_Page_Test">
         <methods>
           <include name="invalidUserName"/>
@@ -12,6 +13,16 @@
           <include name="beforeSuiteStart"/>
         </methods>
       </class> <!-- medifox_Page_Tests.Login_Page_Test -->
+=======
+      <class name="orangHrm.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="titleTest"/>
+          <include name="setup"/>
+          <include name="loginPage"/>
+        </methods>
+      </class> <!-- orangHrm.LoginPageTest -->
+>>>>>>> 983ab6bf75441483e3e232e9916087c315312c54
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

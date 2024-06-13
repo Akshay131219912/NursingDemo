@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -116,6 +117,33 @@
           </reporter-output>
         </test-method> <!-- afterEachTest -->
       </class> <!-- medifox_Page_Tests.Login_Page_Test -->
+=======
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-07T04:39:47 GMT-12:00" name="Default suite" finished-at="2022-06-07T04:40:38 GMT-12:00" duration-ms="50683">
+    <groups>
+    </groups>
+    <test started-at="2022-06-07T04:39:47 GMT-12:00" name="Default test" finished-at="2022-06-07T04:40:38 GMT-12:00" duration-ms="50683">
+      <class name="orangHrm.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:orangHrm.LoginPageTest@66d3eec0]" started-at="2022-06-07T04:39:47 GMT-12:00" name="setup" finished-at="2022-06-07T04:40:24 GMT-12:00" duration-ms="36797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPage()[pri:0, instance:orangHrm.LoginPageTest@66d3eec0]" started-at="2022-06-07T04:40:24 GMT-12:00" name="loginPage" finished-at="2022-06-07T04:40:38 GMT-12:00" duration-ms="13402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="titleTest()[pri:1, instance:orangHrm.LoginPageTest@66d3eec0]" started-at="2022-06-07T04:40:38 GMT-12:00" name="titleTest" finished-at="2022-06-07T04:40:38 GMT-12:00" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangHrm.LoginPageTest@66d3eec0]" started-at="2022-06-07T04:40:38 GMT-12:00" name="tearDown" finished-at="2022-06-07T04:40:38 GMT-12:00" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orangHrm.LoginPageTest -->
+>>>>>>> 983ab6bf75441483e3e232e9916087c315312c54
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
