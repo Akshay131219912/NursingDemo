@@ -84,7 +84,6 @@ public class Login_Page_Action {
 		 * WebElementCommon.getTitle(driver); Assert.assertEquals(actualTitle,
 		 * expectedTitle); logger.log(LogStatus.PASS, "Title validated successfully");
 		 */
-		
 	}
 	public void getText(String field) {
 		WebElement element=login.getText();
@@ -92,5 +91,6 @@ public class Login_Page_Action {
 		String expectedText="Username or Password incorrect"; 
 		Assert.assertEquals(actualText, expectedText);
 		logger.log(LogStatus.PASS, "wrong username/password text varified");
+		
 	}
 }

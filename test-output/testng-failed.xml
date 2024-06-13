@@ -5,11 +5,11 @@
     <classes>
       <class name="medifox_Page_Tests.Login_Page_Test">
         <methods>
-          <include name="verifyLoginPage"/>
+          <include name="invalidUserName"/>
+          <include name="invalidPassword"/>
           <include name="beforeEachTest"/>
-          <include name="btnClick"/>
-          <include name="beforeSuiteStart"/>
           <include name="afterEachTest"/>
+          <include name="beforeSuiteStart"/>
         </methods>
       </class> <!-- medifox_Page_Tests.Login_Page_Test -->
     </classes>

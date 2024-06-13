@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regreesion Suite">
+  <test  name="Test">
+    <classes>
+      <class name="testNGPractice.GoogleTest"/>
+      <class name="testNGPractice.ExpectedExceptionsHandling"/>
+      <class name="testNGPractice.Assertions"/>
+      <class name="testNGPractice.NewTest"/>
+      <class name="testNGPractice.Grouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -13,6 +13,7 @@ import webCommonFunctions.WebElementCommon;
 public class Patient_Management_Page_Action {
 	WebDriver driver = null;
 	Patient_Management_Page_Locator action = null;
+	In_Patient_mgt_PersonalDetails_Page_Action newAction = null;
 	ExtentTest logger = null;
 
 	public Patient_Management_Page_Action(WebDriver driver, ExtentTest logger) {
@@ -21,14 +22,18 @@ public class Patient_Management_Page_Action {
 		action = new Patient_Management_Page_Locator(driver, logger);
 	}
 
-	public void clickOnBtn() {
+	public In_Patient_mgt_PersonalDetails_Page_Action clickOnBtn() {
 		WebElement element = action.getPatientMgtBtn();
+		WebElement elementIn=action.inPatientMgtBtn();
 		Boolean flag = WebElementCommon.isClickable(element);
 		if (flag == true) {
 			WebButton.click(element, "PatientManagementButton", logger);
+			WebButton.click(elementIn, "InPatientManagementButton", logger);
 			logger.log(LogStatus.PASS, "PatientManagementButton clicked successfully");
 		} else {
 			logger.log(LogStatus.FAIL, "Unable to click on PatientManagementButton");
 		}
+		newAction = new In_Patient_mgt_PersonalDetails_Page_Action(driver, logger);
+		return newAction;
 	}
 }
